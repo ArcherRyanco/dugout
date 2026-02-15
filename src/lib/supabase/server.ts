@@ -18,23 +18,11 @@ export async function createClient() {
               cookieStore.set(name, value, options)
             )
           } catch {
-            // Called from Server Component
+            // The `setAll` method was called from a Server Component.
+            // This can be ignored if you have middleware refreshing
+            // user sessions.
           }
         },
-      },
-    }
-  )
-}
-
-// Admin client for server-side operations that need elevated permissions
-export function createAdminClient() {
-  return createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.SUPABASE_SERVICE_ROLE_KEY!,
-    {
-      cookies: {
-        getAll() { return [] },
-        setAll() {},
       },
     }
   )
