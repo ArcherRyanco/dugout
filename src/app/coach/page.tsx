@@ -130,9 +130,12 @@ export default async function CoachDashboard() {
                   </div>
 
                   <div className="flex gap-2">
-                    <button className="flex-1 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-sm font-semibold">
+                    <Link 
+                      href={`/coach/team/${team.id}`}
+                      className="flex-1 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-sm font-semibold text-center"
+                    >
                       Manage Team
-                    </button>
+                    </Link>
                     <button className="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 text-sm">
                       ⚙️
                     </button>
@@ -144,23 +147,32 @@ export default async function CoachDashboard() {
         )}
 
         {/* Quick Actions */}
-        {hasTeams && (
+        {hasTeams && teamStats.length > 0 && (
           <div className="mt-8 grid md:grid-cols-3 gap-6">
-            <div className="bg-white rounded-lg shadow p-6 text-center hover:shadow-lg transition-shadow cursor-pointer">
+            <Link 
+              href="/coach/drills"
+              className="bg-white rounded-lg shadow p-6 text-center hover:shadow-lg transition-shadow"
+            >
               <div className="text-4xl mb-3">📚</div>
               <h3 className="font-semibold mb-2">Drill Library</h3>
               <p className="text-sm text-gray-600">Browse and assign drills</p>
-            </div>
-            <div className="bg-white rounded-lg shadow p-6 text-center hover:shadow-lg transition-shadow cursor-pointer">
+            </Link>
+            <Link 
+              href={`/coach/team/${teamStats[0].id}/roster`}
+              className="bg-white rounded-lg shadow p-6 text-center hover:shadow-lg transition-shadow"
+            >
               <div className="text-4xl mb-3">👥</div>
               <h3 className="font-semibold mb-2">Manage Roster</h3>
               <p className="text-sm text-gray-600">Add or edit players</p>
-            </div>
-            <div className="bg-white rounded-lg shadow p-6 text-center hover:shadow-lg transition-shadow cursor-pointer">
+            </Link>
+            <Link 
+              href={`/coach/team/${teamStats[0].id}/assignments`}
+              className="bg-white rounded-lg shadow p-6 text-center hover:shadow-lg transition-shadow"
+            >
               <div className="text-4xl mb-3">📋</div>
               <h3 className="font-semibold mb-2">View Assignments</h3>
               <p className="text-sm text-gray-600">Track homework completion</p>
-            </div>
+            </Link>
           </div>
         )}
       </main>
