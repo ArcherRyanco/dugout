@@ -125,7 +125,9 @@ export default async function DrillLibraryPage({
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-2">{drill.title}</h3>
+                  <Link href={`/coach/drills/${drill.id}`} className="hover:text-blue-600">
+                    <h3 className="text-xl font-bold mb-2">{drill.title}</h3>
+                  </Link>
                   
                   <p className="text-sm text-gray-600 mb-4 line-clamp-3">
                     {drill.description}

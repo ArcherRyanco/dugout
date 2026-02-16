@@ -148,7 +148,7 @@ export default async function CoachDashboard() {
 
         {/* Quick Actions */}
         {hasTeams && teamStats.length > 0 && (
-          <div className="mt-8 grid md:grid-cols-3 gap-6">
+          <div className="mt-8 grid md:grid-cols-4 gap-6">
             <Link 
               href="/coach/drills"
               className="bg-white rounded-lg shadow p-6 text-center hover:shadow-lg transition-shadow"
@@ -156,6 +156,14 @@ export default async function CoachDashboard() {
               <div className="text-4xl mb-3">📚</div>
               <h3 className="font-semibold mb-2">Drill Library</h3>
               <p className="text-sm text-gray-600">Browse and assign drills</p>
+            </Link>
+            <Link 
+              href="/coach/practice"
+              className="bg-white rounded-lg shadow p-6 text-center hover:shadow-lg transition-shadow"
+            >
+              <div className="text-4xl mb-3">📝</div>
+              <h3 className="font-semibold mb-2">Practice Plans</h3>
+              <p className="text-sm text-gray-600">Ready-to-use templates</p>
             </Link>
             <Link 
               href={`/coach/team/${teamStats[0].id}/roster`}
