@@ -16,7 +16,8 @@ const difficultyColors: Record<string, string> = {
   advanced: 'bg-red-100 text-red-700',
 }
 
-export default async function DrillDetailPage({ params }: { params: { id: string } }) {
+export default async function DrillDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params
   const supabase = await createClient()
   
   const { data: { user } } = await supabase.auth.getUser()
@@ -29,7 +30,7 @@ export default async function DrillDetailPage({ params }: { params: { id: string
   const { data: drill } = await supabase
     .from('drills')
     .select('*')
-    .eq('id', params.id)
+    .eq('id', id)
     .single()
 
   if (!drill) {

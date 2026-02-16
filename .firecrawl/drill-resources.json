@@ -1,0 +1,384 @@
+{
+  "drills": [
+    {
+      "title": "Wall Ball Throws",
+      "category": "throwing",
+      "video_url": "https://www.youtube.com/watch?v=77r6mWAUecA",
+      "video_title": "Throwing Progression for Youth Players",
+      "instructions": [
+        "Stand about 10 feet from a wall or fence",
+        "Use a 4-seam grip on the ball",
+        "Step toward the wall with your glove-side foot",
+        "Follow through completely - hand should end at opposite hip",
+        "Catch the ball and repeat"
+      ],
+      "coaching_points": [
+        "Focus on proper grip first - fingers across the seams",
+        "Emphasize 'elbow up' before throwing",
+        "Watch for stepping toward target, not across body"
+      ],
+      "equipment": ["Baseball", "Glove", "Wall or fence"]
+    },
+    {
+      "title": "Knee Throwing",
+      "category": "throwing",
+      "video_url": "https://www.youtube.com/watch?v=o3Qz0LtQZ_I",
+      "video_title": "Basic Throwing Mechanics",
+      "instructions": [
+        "Kneel on your throwing-side knee",
+        "Partner kneels facing you about 15 feet away",
+        "Focus on keeping elbow at shoulder height",
+        "Snap wrist on release",
+        "Follow through toward partner"
+      ],
+      "coaching_points": [
+        "Isolates upper body mechanics",
+        "Watch for arm slot - should be at or above shoulder",
+        "Great for correcting sidearm habits"
+      ],
+      "equipment": ["Baseball", "Glove", "Partner"]
+    },
+    {
+      "title": "Long Toss",
+      "category": "throwing",
+      "video_url": "https://www.youtube.com/watch?v=LtzwCrthlTY",
+      "video_title": "Youth Baseball Essentials: Simple Throwing Progressions",
+      "instructions": [
+        "Start close (20 feet) and throw easy",
+        "Gradually increase distance as arm warms up",
+        "For 5-6 year olds, max distance around 40-50 feet",
+        "Focus on arc throws, not line drives",
+        "Work back in when arm feels loose"
+      ],
+      "coaching_points": [
+        "Build arm strength safely",
+        "Stop if any discomfort",
+        "Quality over distance at this age"
+      ],
+      "equipment": ["Baseball", "Glove", "Open space"]
+    },
+    {
+      "title": "Quick Hands",
+      "category": "throwing",
+      "video_url": "https://www.youtube.com/watch?v=d3QApCrFm5k",
+      "video_title": "Baseball Throwing Drills Youth Players MUST Be Doing",
+      "instructions": [
+        "Stand 10 feet from partner",
+        "Catch ball and release as quickly as possible",
+        "Focus on transfer from glove to throwing hand",
+        "Use proper footwork - small shuffle toward target",
+        "Keep throws at chest height"
+      ],
+      "coaching_points": [
+        "Speed comes from clean footwork, not rushing",
+        "Get ball out of glove quickly but under control",
+        "Make it a game - count successful quick catches"
+      ],
+      "equipment": ["Baseball", "Glove", "Partner"]
+    },
+    {
+      "title": "Two Hands Alligator",
+      "category": "catching",
+      "video_url": "https://www.youtube.com/watch?v=fSTmvPm_77I",
+      "video_title": "Practice Fielding Ground Balls With Four Cones",
+      "instructions": [
+        "Get in ready position - feet wider than shoulders",
+        "When ball comes, put glove down with fingers pointing down",
+        "Cover glove with throwing hand like an alligator mouth",
+        "Squeeze both hands together when ball enters glove",
+        "Bring ball to chest, then throw"
+      ],
+      "coaching_points": [
+        "Two hands ALWAYS - builds habit for ground balls",
+        "Alligator 'chomps' on the ball",
+        "Start with rolled balls before bounced balls"
+      ],
+      "equipment": ["Baseball", "Glove"]
+    },
+    {
+      "title": "Bare Hand Catches",
+      "category": "catching",
+      "video_url": "https://www.youtube.com/watch?v=_QC-pBhoZWg",
+      "video_title": "How to Teach Kids How to Catch",
+      "instructions": [
+        "Start with soft tennis balls or foam balls",
+        "No glove - use both hands to catch",
+        "Focus on 'soft hands' - give with the catch",
+        "Start close (5 feet) and underhand toss",
+        "Move back as confidence builds"
+      ],
+      "coaching_points": [
+        "Teaches hand-eye coordination without glove distraction",
+        "Emphasize 'catch with fingers, not palms'",
+        "Use soft balls to remove fear of ball"
+      ],
+      "equipment": ["Soft/foam ball or tennis ball"]
+    },
+    {
+      "title": "Fly Ball Communication",
+      "category": "catching",
+      "video_url": "https://www.youtube.com/watch?v=Lnfgd_ld_CM",
+      "video_title": "3 great drills for teaching kids how to catch fly balls",
+      "instructions": [
+        "Pair up players in the outfield",
+        "Coach lofts fly ball between two players",
+        "Player who calls 'I GOT IT!' loudly takes the catch",
+        "Other player backs up and says 'YOURS!'",
+        "Practice calling ball early and loudly"
+      ],
+      "coaching_points": [
+        "Communication prevents collisions",
+        "Call ball BEFORE you move to it",
+        "If you call it, you catch it - no giving up"
+      ],
+      "equipment": ["Baseball", "Gloves"]
+    },
+    {
+      "title": "Pop Fly Footwork",
+      "category": "catching",
+      "video_url": "https://www.youtube.com/watch?v=e_8zNKXz_FQ",
+      "video_title": "How to Catch A Fly Ball With Confidence",
+      "instructions": [
+        "Start in ready position facing coach",
+        "Coach points direction - player takes drop step that way",
+        "Run to spot UNDER the ball, not to where it is",
+        "Set feet before catch - don't drift",
+        "Catch above head with two hands"
+      ],
+      "coaching_points": [
+        "First step is always back (drop step)",
+        "Get to the spot, then wait for ball",
+        "Glove above eyes - can see ball into glove"
+      ],
+      "equipment": ["Baseball", "Glove"]
+    },
+    {
+      "title": "Tee Work Basics",
+      "category": "batting",
+      "video_url": "https://www.youtube.com/watch?v=XjOz6upHbQ8",
+      "video_title": "5 Simple Tee Ball Tips & Drills",
+      "instructions": [
+        "Set tee at belly button height",
+        "Feet shoulder-width apart, knees bent",
+        "Hands together at back shoulder",
+        "Eyes on the ball the entire swing",
+        "Swing level through the ball"
+      ],
+      "coaching_points": [
+        "Watch the bat hit the ball - eyes stay on contact point",
+        "Start slow - get smooth before adding power",
+        "Hit through the ball, not at it"
+      ],
+      "equipment": ["Batting tee", "Bat", "Baseballs", "Net or open field"]
+    },
+    {
+      "title": "Soft Toss",
+      "category": "batting",
+      "video_url": "https://www.youtube.com/watch?v=xc-l7B0PGcs",
+      "video_title": "Top 3 Tee Ball Drills",
+      "instructions": [
+        "Tosser kneels to the side at 45 degrees",
+        "Underhand toss ball into hitting zone",
+        "Batter tracks ball and swings level",
+        "Focus on timing - let ball get deep",
+        "Keep head still through contact"
+      ],
+      "coaching_points": [
+        "Tosser: consistent location and speed",
+        "Batter: wait on the ball, don't reach",
+        "Great progression from tee work"
+      ],
+      "equipment": ["Bat", "Baseballs", "Net or open field"]
+    },
+    {
+      "title": "High-Low Tee Work",
+      "category": "batting",
+      "video_url": "https://www.youtube.com/watch?v=Vy6bQLgmw00",
+      "video_title": "EASY TEE BALL HITTING DRILL",
+      "instructions": [
+        "Set tee at different heights - low, middle, high",
+        "Hit 5 balls at each height",
+        "Low ball: bend knees more, stay on top",
+        "High ball: hands go up, still swing level",
+        "Focus on adjusting body, not bat angle"
+      ],
+      "coaching_points": [
+        "Teaches pitch recognition habits early",
+        "Body adjusts, bat path stays consistent",
+        "Low = stay tall over ball, High = hands up"
+      ],
+      "equipment": ["Adjustable batting tee", "Bat", "Baseballs"]
+    },
+    {
+      "title": "Front Toss",
+      "category": "batting",
+      "video_url": "https://www.youtube.com/watch?v=-KVspI__fnc",
+      "video_title": "10 Best Baseball Drills for 6 Year Olds",
+      "instructions": [
+        "Coach stands 15-20 feet in front, behind L-screen if available",
+        "Underhand pitch into strike zone",
+        "Batter loads and swings when ball approaches",
+        "Focus on timing and tracking pitch",
+        "No power swings - contact focus"
+      ],
+      "coaching_points": [
+        "Most game-like of tee-ball batting drills",
+        "Teaches timing that tee can't",
+        "Safety first - use L-screen or stand off to side"
+      ],
+      "equipment": ["Bat", "Baseballs", "L-screen (optional)", "Open field"]
+    },
+    {
+      "title": "Ready Position",
+      "category": "fielding",
+      "video_url": "https://www.youtube.com/watch?v=OTP9eUBsqmk",
+      "video_title": "How to Field a Ground Ball in 3 Easy Steps",
+      "instructions": [
+        "Feet wider than shoulders, weight on balls of feet",
+        "Knees bent, butt down like sitting in a chair",
+        "Hands in front, glove open toward batter",
+        "Eyes on the hitter - watch the ball off the bat",
+        "Be ready to move any direction"
+      ],
+      "coaching_points": [
+        "Athletic position - like a gorilla or football linebacker",
+        "Can't catch what you can't get to - be ready to move",
+        "Reset to ready after every pitch"
+      ],
+      "equipment": ["Glove"]
+    },
+    {
+      "title": "Charge and Field",
+      "category": "fielding",
+      "video_url": "https://www.youtube.com/watch?v=fSTmvPm_77I",
+      "video_title": "Practice Fielding Ground Balls - Little League",
+      "instructions": [
+        "Start in ready position",
+        "When ball is hit, charge forward aggressively",
+        "Slow down as you approach the ball",
+        "Field with two hands out front - alligator style",
+        "Set feet and make strong throw"
+      ],
+      "coaching_points": [
+        "Attack the ball - don't wait for it to come to you",
+        "Slow to field, fast to throw",
+        "Charging creates better hop opportunities"
+      ],
+      "equipment": ["Baseball", "Glove"]
+    },
+    {
+      "title": "Backhand-Forehand",
+      "category": "fielding",
+      "video_url": "https://www.youtube.com/watch?v=-KVspI__fnc",
+      "video_title": "10 Best Baseball Fielding Drills for Kids",
+      "instructions": [
+        "Roll balls to glove side (forehand) and throwing side (backhand)",
+        "Forehand: field in front of body with two hands",
+        "Backhand: extend glove across body, one hand okay",
+        "Always get in front of ball when possible",
+        "Practice footwork - crossover steps"
+      ],
+      "coaching_points": [
+        "Forehand is always priority if you can get there",
+        "Backhand is a 'save' - use when necessary",
+        "Quick feet make hard plays easy"
+      ],
+      "equipment": ["Baseball", "Glove"]
+    },
+    {
+      "title": "Bucket Drill",
+      "category": "fielding",
+      "video_url": "https://www.youtube.com/watch?v=YRAjMC5F4sg",
+      "video_title": "10 Best Baseball Throwing Drills for Kids",
+      "instructions": [
+        "Place bucket or cone at first base",
+        "Field ground ball and throw to bucket",
+        "Focus on accuracy over power",
+        "Get points for hitting the bucket",
+        "Make it competitive between players"
+      ],
+      "coaching_points": [
+        "Throwing to a target beats throwing to a person",
+        "Gamification keeps kids engaged",
+        "Footwork matters - point front foot at target"
+      ],
+      "equipment": ["Baseball", "Glove", "Bucket or cone"]
+    },
+    {
+      "title": "Home to First",
+      "category": "baserunning",
+      "video_url": "https://www.youtube.com/watch?v=3ywNIhNFpFc",
+      "video_title": "TEE BALL fundamentals for 5 & 6-year-olds",
+      "instructions": [
+        "Start in batter's box stance",
+        "Swing (or pretend swing), then RUN",
+        "Run through first base, not to it",
+        "Look at base, not at the ball",
+        "Touch bag and run 3-4 steps past before slowing"
+      ],
+      "coaching_points": [
+        "Run THROUGH the base - full speed",
+        "Don't look at the ball while running",
+        "Head down, pump arms, run straight line"
+      ],
+      "equipment": ["Bases"]
+    },
+    {
+      "title": "Rounding Bases",
+      "category": "baserunning",
+      "video_url": "https://www.youtube.com/watch?v=-KVspI__fnc",
+      "video_title": "10 Best Baseball Drills for 6 Year Olds",
+      "instructions": [
+        "Start at home plate",
+        "Run outside the baseline as you approach first",
+        "Touch inside corner of base",
+        "Lean into the turn, pump arms",
+        "Look for next base while running"
+      ],
+      "coaching_points": [
+        "Banana path - curve out then in",
+        "Touch inside corner to shorten distance",
+        "Don't slow down at the base"
+      ],
+      "equipment": ["Bases"]
+    },
+    {
+      "title": "Lead and React",
+      "category": "baserunning",
+      "video_url": "https://www.youtube.com/watch?v=CWnCj1_lTHQ",
+      "video_title": "Youth Baseball Throwing Progression",
+      "instructions": [
+        "Start with foot on base",
+        "Take 2-3 shuffle steps off base (coach pitch rules)",
+        "Watch coach - 'Go!' means run, 'Back!' means return",
+        "React quickly to commands",
+        "Practice getting good jump"
+      ],
+      "coaching_points": [
+        "Small lead for young players - safety first",
+        "Explosive first step is everything",
+        "Eyes on the ball/pitcher"
+      ],
+      "equipment": ["Bases"]
+    },
+    {
+      "title": "Sliding Practice",
+      "category": "baserunning",
+      "video_url": "https://www.youtube.com/watch?v=LtzwCrthlTY",
+      "video_title": "Youth Baseball Essentials",
+      "instructions": [
+        "Start on grass, not dirt",
+        "Sit down and practice leg position - one bent, one straight",
+        "Hands UP - never down",
+        "Practice from standing, then jogging, then running",
+        "Progress to base only when comfortable"
+      ],
+      "coaching_points": [
+        "Safety first - grass, then soft dirt, then base",
+        "Hands up prevents jammed fingers",
+        "Bent leg goes under, straight leg touches base"
+      ],
+      "equipment": ["Bases", "Grass area", "Optional: slip-n-slide"]
+    }
+  ]
+}
