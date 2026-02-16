@@ -42,7 +42,7 @@ export default async function DrillLibraryPage({
   let query = supabase
     .from('drills')
     .select('*')
-    .order('name')
+    .order('title')
 
   if (searchParams.category) {
     query = query.eq('category', searchParams.category)
@@ -125,7 +125,7 @@ export default async function DrillLibraryPage({
                     </div>
                   </div>
                   
-                  <h3 className="text-xl font-bold mb-2">{drill.name}</h3>
+                  <h3 className="text-xl font-bold mb-2">{drill.title}</h3>
                   
                   <p className="text-sm text-gray-600 mb-4 line-clamp-3">
                     {drill.description}

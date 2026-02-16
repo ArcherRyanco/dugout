@@ -35,7 +35,7 @@ export default async function AssignmentsPage({
   const { data: drills } = await supabase
     .from('drills')
     .select('*')
-    .order('name')
+    .order('title')
 
   // Get assignments with drill details and completion counts
   const { data: assignments } = await supabase
@@ -44,7 +44,7 @@ export default async function AssignmentsPage({
       *,
       drills (
         id,
-        name,
+        title,
         category,
         difficulty,
         duration_minutes
@@ -157,7 +157,7 @@ export default async function AssignmentsPage({
                     <option value="">Choose a drill...</option>
                     {drills?.map((drill) => (
                       <option key={drill.id} value={drill.id}>
-                        {drill.name} ({drill.category})
+                        {drill.title} ({drill.category})
                       </option>
                     ))}
                   </select>
@@ -238,7 +238,7 @@ export default async function AssignmentsPage({
                               {drill && categoryEmojis[drill.category]}
                             </div>
                             <div>
-                              <h4 className="text-lg font-bold mb-1">{drill?.name}</h4>
+                              <h4 className="text-lg font-bold mb-1">{drill?.title}</h4>
                               <div className="flex gap-2 items-center text-sm text-gray-600">
                                 <span className="capitalize px-2 py-1 bg-blue-100 text-blue-700 rounded">
                                   {drill?.category}
